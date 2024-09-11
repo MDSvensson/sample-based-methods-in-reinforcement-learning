@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "sample-based learning methods"
+version = "0.1.0"
+description = "Course 2 of the RL Specialisation"
+authors = ["Marc Svensson <marc.svensson@siemens.com>"]
+readme = "README.md"
+packages = [{include = "sample_based learning methods"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.2"
+tqdm = "^4.66.1"
+jdc = "^0.0.9"
+matplotlib = "^3.8.1"
+ipympl = "^0.9.3"
+scipy = "^1.11.4"
+jupyter-client = "^8.6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
